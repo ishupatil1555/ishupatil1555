@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Happy Birthday Dada</title>
+        <style>
+            h1 {
+                color:green;
+            }
+            body {
+                text-align:center;
+            }
+           a {
+                text-decoration:none;
+                color:green;
+            }
+</style>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+            
+        </style>
+<style>
+.flex-container {
+  display: flex;
+  background-color: pink;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 30%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:pink;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: blue;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+<style type="text/css">
+    .frame {
+      height: 800px;
+      width: 800px;
+      overflow: hidden;
+     
+    }
+
+    .zoomin img {
+      height: 200px;
+      width: 200px;
+      -webkit-transition: all 2s ease;
+      -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+      transition: all 2s ease;
+
+    }
+    .zoomin img:hover {
+      width: 500px;
+      height: 500px;
+    }
+  </style>
+
+<style>
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+</style>
+
+
+ <script>
+            function mouseover() {
+                document.getElementById("gfg").style.color = "red";
+            }
+              
+            function mouseout() {
+                document.getElementById("gfg").style.color = "yellow";
+            }
+        </script>
+       </head>
+<body background="C:\Users\DELL\Desktop\Ru\b.jpg">
+<h1 style="color:red;">Happy Birthday</h1>
+<h2 style="color:tomato;">28th of April</h2>
+<a href = "#" id="gfg" onmouseover="mouseover()" 
+        onmouseout="mouseout()">Happy Birthday DADA</a>
+<center><div class="container">
+  <img src="C:\Users\DELL\Desktop\Ru\Snapchat-91795578.jpg"  class="image" style="width:50%">
+  <div class="middle">
+    <div class="text">Vikrant-The most important person in my life-my brother,my friend,a supporter,best person.Wish you lots of luck,health and happiness bro.</div>
+  </div>
+</div></center>
+
+<div class="flex-container">
+  <div>R</div>
+  <div>U</div>
+  <div>S</div>  
+  <div>H</div>  
+  <div>U</div>   
+</div>
+<img src="C:\Users\DELL\Desktop\Ru\cake.gif">
+<center><div class="container">
+  <img src="virat.jfif"  class="image">
+  <div class="overlay">
+    <div class="text"><b><i>The Legend-Virat Kohli</i></b><br>(ps.He loves cricket a lot.And no doubt ,Virat Kohli also.So the picture of him is must.I know bro how much you admire and respect him.So this one for you. )     </br></div>
+  </div>
+</div></center>
+<center><div class="zoomin frame">
+    <img src="v.jpg" title="Scale on Hover with Transition using CSS" />
+  </div></center>
+<p><h1 style="background-color:yellow; color:red"><b>I know you don't like to click pictures ,but today you have to bear it!</b></h1></p>
+
+
+<button class="glow-on-hover" type="button">Once again ,<br><b>HAPPIEST BIRTHDAY BRO!!</b></br></button>
+
+</body>
+</html>
